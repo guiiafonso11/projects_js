@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(15, 147, 255);
+    text-align: center;
+}
+
+.calculadoraIMG {
+    width: 150px;
+
+}
+input.numero1, 
+.numero2{
+    height: 120px;
+}
+
+input.somar,
+.subtrair,
+.dividir,
+.multiplicar {
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#resultado {
+    font-size: 2rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    align-self: center;
+}
+
+.res{
+    text-align: center;
+    margin:0 auto;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: white;
+    width: 50%;
+}
